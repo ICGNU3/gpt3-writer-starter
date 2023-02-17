@@ -14,10 +14,10 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>sup, insert your headline here</h1>
+            <h1>77-Day Plan Generator</h1>
           </div>
           <div className="header-subtitle">
-            <h2>insert your subtitle here</h2>
+            <h2>input your goal below, we create plan to reach it in 90 days with breaks</h2>
           </div>
         </div>
         {/* Add this code here*/}
