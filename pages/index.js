@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import yarn Logo from '../assets/buildspace-logo.png';
+import buildspaceLogo Logo from '../assets/buildspace-logo.png';
 import { useState } from 'react';
 
 const Home = () => {
