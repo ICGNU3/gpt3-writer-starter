@@ -22,9 +22,21 @@ const Home = () => {
         </div>
         {/* Add this code here*/}
         <div className="prompt-container">
-          <textarea placeholder="start typing here" className="prompt-box" />
-        </div>
+  <textarea
+    placeholder="start typing here"
+    className="prompt-box"
+    value={userInput}
+    onChange={onUserChangedText}
+  />
+  {/* New code I added here */}
+  <div className="prompt-buttons">
+    <a className="generate-button" onClick={null}>
+      <div className="generate">
+        <p>Generate</p>
       </div>
+    </a>
+  </div>
+</div>
       <div className="badge-container grow">
         <a
           href="https://buildspace.so/builds/ai-writer"
