@@ -41,7 +41,7 @@ const Home = () => {
             <h1>77-Day Plan Generator</h1>
           </div>
           <div className="header-subtitle">
-            <h2>input your goal below, we'll create plan to reach it in 90 days with breaks</h2>
+            <h2>input your goal below, we'll create plan to reach it in 90 days <i>with breaks</i></h2>
           </div>
         </div>
         
