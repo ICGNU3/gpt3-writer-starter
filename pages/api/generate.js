@@ -5,7 +5,14 @@ const configuration = new Configuration({
 });
 
 const openai = new OpenAIApi(configuration);
-const basePromptPrefix = "";
+const basePromptPrefix = const basePromptPrefix =
+`
+Act like an expert on the subject of the following prompt. 
+Create a 90 day plan with 77 days of work and 13 days of breaks.
+Pay close attention to detail.
+
+Title:
+`;
 const generateAction = async (req, res) => {
   // Run first prompt
   console.log(`API: ${basePromptPrefix}${req.body.userInput}`)
