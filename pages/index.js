@@ -45,7 +45,7 @@ const callGenerateEndpoint = async () => {
           </div>
         </div>
         {/* Add this code here*/}
-        <div className="prompt-container">
+       <div className="prompt-container">
   <textarea
     placeholder="start typing here"
     className="prompt-box"
@@ -53,14 +53,13 @@ const callGenerateEndpoint = async () => {
     onChange={onUserChangedText}
   />
   <div className="prompt-buttons">
-    <a className="generate-button" onClick={callGenerateEndpoint}>
-      <div className="generate">
-        <p>Generate</p>
-      </div>
-    </a>
-  </div>
-  {/* New code I added here */}
-  {apiOutput && (
+  <a className="generate-button" onClick={callGenerateEndpoint}>
+    <div className="generate">
+      <p>Generate</p>
+    </div>
+  </a>
+</div>
+{apiOutput && (
   <div className="output">
     <div className="output-header-container">
       <div className="output-header">
@@ -72,7 +71,8 @@ const callGenerateEndpoint = async () => {
     </div>
   </div>
 )}
-</div>
+</div>  // Add the closing curly brace here
+
       <div className="badge-container grow">
         <a
           href="https://buildspace.so/builds/ai-writer"
