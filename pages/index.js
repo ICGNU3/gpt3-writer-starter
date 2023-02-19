@@ -85,7 +85,7 @@ const Home = () => {
           >
             <div className="badge">
               <Image src={ICGNULogo} alt="ICGNU logo" />
-              <p>Build with ICGNU</p>
+              <p>Build with Us</p>
             </div>
           </a>
         </div>
