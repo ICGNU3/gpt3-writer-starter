@@ -7,13 +7,17 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 const basePromptPrefix =
 `
-Act like an expert on the subject of the following prompt. Create refined a description of the plan and it's goals.
+Act like an expert on the subject of the following prompt. 
 
-Create a 90 day plan with 77 days of work and 13 days of breaks.
+Create refined a description of the plan and it's goals.
 
-Title: USER_TITLE_GOES_HERE
+Create a 77 day plan with 13 days of intermingled rest and recreation for a total of 90 days.
 
-Plan: OUTPUT_FROM_PROMPT_HERE
+Create a daily task for each of the 77 days
+
+Plan: OUTPUT_PLAN_PROMPT_HERE
+
+Tasks: OUTPUT_TASKS_PROMPT_HERE
 `;
 const generateAction = async (req, res) => {
   // Run first prompt
