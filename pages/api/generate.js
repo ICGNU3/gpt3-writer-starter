@@ -8,7 +8,7 @@ const openai = new OpenAIApi(configuration);
 const basePromptPrefix =
 `
 Act like an expert on the subject of the following prompt. 
-Create a list of daily tasks to reach the goal in 77 days
+Create a detailed 77 day plan to accomplish the goal. 
 `;
 const generateAction = async (req, res) => {
   // Run first prompt
