@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import buildspaceLogo from '../assets/buildspace-logo.png';
+import ICGNULogo from '../assets/ICGNU-Logo-white.png';
 import { useState } from 'react';
 
 const Home = () => {
@@ -41,7 +41,7 @@ const Home = () => {
             <h1>77-Day Plan Generator</h1>
           </div>
           <div className="header-subtitle">
-            <h2>input your goal below, we'll create plan to reach it in 90 days <i>with breaks</i></h2>
+            <h2>Astonishing what we can accomplish in 77 days with the <i>right</i> plan</h2>
           </div>
         </div>
         
@@ -79,13 +79,13 @@ const Home = () => {
 
         <div className="badge-container grow">
           <a
-            href="https://buildspace.so/builds/ai-writer"
+            href="https://icgnu.com/community"
             target="_blank"
             rel="noreferrer"
           >
             <div className="badge">
-              <Image src={buildspaceLogo} alt="buildspace logo" />
-              <p>build with buildspace</p>
+              <Image src={ICGNULogo} alt="ICGNU logo" />
+              <p>Build with ICGNU</p>
             </div>
           </a>
         </div>
