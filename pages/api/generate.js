@@ -15,9 +15,9 @@ Create a 77 day plan with 13 days of intermingled rest and recreation for a tota
 
 Create a daily task for each of the 77 days
 
-Plan: OUTPUT_PLAN_PROMPT_HERE
+Plan: OUTPUT_FIRST_PROMPT_HERE
 
-Tasks: OUTPUT_TASKS_PROMPT_HERE
+Tasks: OUTPUT_LAST_PROMPT_HERE
 `;
 const generateAction = async (req, res) => {
   // Run first prompt
