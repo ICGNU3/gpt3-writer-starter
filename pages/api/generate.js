@@ -8,7 +8,7 @@ const openai = new OpenAIApi(configuration);
 const basePromptPrefix =
 `
 Act like an expert on the subject of the following prompt. 
-Create a detailed 77 day plan to accomplish the goal. 
+Create a detailed 77 day plan broken into 11 7-day sections to accomplish the goal. 
 `;
 const generateAction = async (req, res) => {
   // Run first prompt
